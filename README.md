@@ -7,8 +7,8 @@ Figma design system: https://www.figma.com/file/rgAOp70ASVkiprojhuqEqC/Edanwura?
 3. Footer: footer.html
 
 # Project structure:
-index.html -> This is the entry file
-/styles -> This contains all stylesheets
-/js -> This contains all scripts
-/assets -> This contains all media and non-media assets
-/templates -> This contains all web documents esp. global documents
+1. index.html -> This is the entry file
+2. /styles -> This contains all stylesheets
+3. /js -> This contains all scripts
+4. /assets -> This contains all media and non-media assets
+5. /templates -> This contains all web documents esp. global documents
