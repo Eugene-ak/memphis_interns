@@ -9,6 +9,6 @@ Figma design system: https://www.figma.com/file/rgAOp70ASVkiprojhuqEqC/Edanwura?
 # Project structure:
 1. index.html -> This is the entry file
 2. /styles -> This contains all stylesheets
-3. /js -> This contains all scripts
+3. /scripts -> This contains all scripts
 4. /assets -> This contains all media and non-media assets
 5. /templates -> This contains all web documents esp. global documents
