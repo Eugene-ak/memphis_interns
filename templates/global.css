@@ -45,10 +45,6 @@ nav {
 }
 
 .nav-list li a:hover {
-
-}
-
-.nav-list li a:active {
     border-bottom: 5px solid var(--primary-color);
 }
 
