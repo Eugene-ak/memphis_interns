@@ -1,0 +1,99 @@
+.home-layout{
+    
+}
+
+button{
+  background-color:var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 13px;
+}
+ .hero-section{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+ 
+  height: 100vh;
+ background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-954633/original/63ea9744-7ac9-450c-a7dc-734d75d40bc4.jpeg?im_w=960);
+
+ }
+ .left-section{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  width: 40%;
+  height: 60%;
+  column-gap: 10px;
+  justify-content: space-evenly;
+  
+ }
+ img {
+
+  width: 100%;
+  height: 95%;
+  border-radius: 5px;
+  
+ }
+ 
+ .search-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 99%;
+  height: 100%;
+  justify-content:space-between;
+  border: 2px solid white;
+  border-radius: 5px;
+
+ 
+  .type{
+    width:30%;
+  }
+.preference{
+  width: 60%;
+}
+ .search-button{
+  width: 10%;
+  background-color: black;
+}
+ }
+ .right-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4pt solid white;
+  background-color: azure;
+  opacity: 80%;
+  font-weight: 700px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .services-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+
+ }
+.left-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+grid-template-rows: 10px 10px 10px;
+width: 50%;
+height: 50%;
+ }
+ .grid-layout col-1{
+  display: flex;
+  border: 3pt solid black;
+  background-color: black;
+  color: white;
+ }
