@@ -351,18 +351,3 @@ img {
   width: 40px;
   height: 40px;
 }
-.index-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-image: url("../assets/map.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.services-body{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-}
