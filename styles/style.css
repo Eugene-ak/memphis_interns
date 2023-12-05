@@ -119,6 +119,8 @@ textarea {
     border: 1px solid var(--secondary-color);
     border-radius: 10px;
     height: 50px;
+    padding: 5px 10px;
+    font-family: var(--primary-font);
 }
 
 input[type="submit"] {
