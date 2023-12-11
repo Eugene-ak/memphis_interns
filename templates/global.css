@@ -8,7 +8,8 @@
     --primary-font: 'Roboto', sans-serif;
 }
 
-body, html {
+body,
+html {
     margin: 0;
     font-family: var(--primary-font);
     display: flex;
@@ -29,7 +30,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
     color: var(--primary-color);
     background-color: var(--secondary-color);
 }
@@ -42,7 +43,7 @@ nav {
 }
 
 .nav-list {
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -72,6 +73,6 @@ nav {
 
 .nav-list li a:visited {
     text-decoration: none;
-    color: var(--primary-color);    
+    color: var(--primary-color);
     border-bottom: 5px solid var(--primary-color);
 }
