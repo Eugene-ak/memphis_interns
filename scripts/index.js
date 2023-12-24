@@ -2,18 +2,15 @@ var headerElement = document.getElementById("page-header");
 var currentPath = window.location.pathname;
 
 var navbarAlt = fetch("../templates/header.html")
-    .then((response) => response.text())
-    .then((data) => {
-        headerElement.innerHTML = data;
-    });
-
-
-
+  .then((response) => response.text())
+  .then((data) => {
+    headerElement.innerHTML = data;
+  });
 
 if (currentPath == "/about.html") {
-    var childnodes = headerElement.childNodes;
-    console.log(childnodes.item(0));
-    // link.classList.add("active-link");
+  var childnodes = headerElement.childNodes;
+  console.log(childnodes.item(0));
+  // link.classList.add("active-link");
 }
 
 // switch (currentPath) {
