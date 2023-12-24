@@ -27,3 +27,17 @@ if (currentPath == "/about.html") {
 //         contactLink.classList.add("active-link");
 //         break;
 // }
+
+
+// var mobileMenuDrawer = document.getElementById("mobile-menu-button");
+// var navListDrawer = document.getElementById("nav-list-drawer");
+
+// console.log(mobileMenuDrawer.classList);
+// console.log(navListDrawer.classList);
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     mobileMenuDrawer.addEventListener("click", () => {
+//         navListDrawer.classList.add("show-nav-list");
+//     });
+// });
+
