@@ -89,7 +89,7 @@ header {
   border-bottom: 5px solid var(--primary-color);
 }
 
-@media (max-width: 712px) {
+@media (min-width: 0) and (max-width: 712px) {
   header {
     height: 70px;
   }

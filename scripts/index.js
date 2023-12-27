@@ -7,37 +7,15 @@ var navbarAlt = fetch("../templates/header.html")
     headerElement.innerHTML = data;
   });
 
-if (currentPath == "/about.html") {
-  var childnodes = headerElement.childNodes;
-  console.log(childnodes.item(0));
-  // link.classList.add("active-link");
-}
+var mobileMenuDrawer = document.getElementById("mobile-menu-button");
+var navListDrawer = document.getElementById("nav-list-drawer");
 
-// switch (currentPath) {
-//     case "/index.html":
-//         homeLink.classList.add("active-link");
-//         break;
-//     case "/services.html":
-//         servicesLink.classList.add("active-link");
-//         break;
-//     case "/about.html":
-//         aboutLink.classList.add("active-link");
-//         break;
-//     case "/contact.html":
-//         contactLink.classList.add("active-link");
-//         break;
-// }
+console.log(mobileMenuDrawer.classList);
+console.log(navListDrawer.classList);
 
-
-// var mobileMenuDrawer = document.getElementById("mobile-menu-button");
-// var navListDrawer = document.getElementById("nav-list-drawer");
-
-// console.log(mobileMenuDrawer.classList);
-// console.log(navListDrawer.classList);
-
-// document.addEventListener("DOMContentLoaded", () => {
-//     mobileMenuDrawer.addEventListener("click", () => {
-//         navListDrawer.classList.add("show-nav-list");
-//     });
-// });
+document.addEventListener("DOMContentLoaded", () => {
+    mobileMenuDrawer.addEventListener("click", () => {
+        navListDrawer.classList.add("show-nav-list");
+    });
+});
 
