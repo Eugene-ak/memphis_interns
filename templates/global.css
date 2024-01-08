@@ -15,7 +15,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   width: 100vw;
 }
 
@@ -23,7 +22,8 @@ header {
   width: 100%;
 }
 
-#navbar {margin: auto;
+#navbar {
+  margin: auto;
   height: 10vh;
   padding: 0 50px;
   display: flex;
@@ -36,11 +36,12 @@ header {
 
 #mobile-drawer {
   display: none;
-  background: var(--secondary-color);
 }
 
 .menu-drawer {
-  background-color: var(--secondary-color);
+  width: 3rem;
+  height: 3rem;
+  fill: var(--primary-color);
 }
 
 .logo {
@@ -59,7 +60,7 @@ header {
   list-style-type: none;
 }
 
-#mobile-drawer .nav-list {
+#mobile-drawer .nav-list-2 {
   display: none;
 }
 
@@ -99,19 +100,22 @@ header {
   }
 
   #mobile-drawer {
+    margin: auto;
+    height: 5rem;
+    padding: 0 50px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    height: 70px;
-    padding: 0 30px;
+    align-items: center;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
   }
 
-  #mobile-drawer .nav-list {
+  #mobile-drawer .nav-list-2 {
     display: none;
   }
 
-  /* #mobile-drawer .nav-list {
+  .show-nav-list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,11 +128,6 @@ header {
     border-top: 3px solid var(--primary-color);
     color: var(--primary-color);
     background-color: var(--secondary-color);
-  } */
-
-  #mobile-drawer .nav-list hr {
-    width: 95%;
-    color: var(--primary-color);
   }
 
   #mobile-drawer .nav-list li {
