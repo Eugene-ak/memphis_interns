@@ -1,14 +1,12 @@
-var currentPath = window.location.pathname;
-var homeLink = document.getElementById("home-link");
-var aboutLink = document.getElementById("about-link");
-var servicesLink = document.getElementById("services-link");
-var contactLink = document.getElementById("contact-link");
+let menuDrawer = document.querySelector(".menu-drawer");
+let navList = document.querySelector("#mobile-drawer .nav-list");
 
-
-function getLinkValues() {
-    console.log(currentPath);
-    console.log("home link", homeLink);
-    console.log("home link", homeLink.target.value);
-}
-
-document.addEventListener("DOMContentLoaded", getLinkValues());
+menuDrawer.addEventListener("click", () => {
+    if (navList.style.display == "") {
+        navList.style.display = "flex";
+    } else if (navList.style.display == "none") {
+        navList.style.display = "flex";
+    } else {
+        navList.style.display = "none"
+    }
+})

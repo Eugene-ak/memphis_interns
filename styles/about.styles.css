@@ -1,4 +1,5 @@
 .about-body {
+    width: 100%;
     background-image: url("../assets/about-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +12,7 @@
     background-color: #EBEBEB;
     width: 60%;
     border-radius: 5px;
-    margin: 50px 40px;
+    margin: 50px auto;
     padding: 25px;
 }
 
