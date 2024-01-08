@@ -1,8 +1,12 @@
 let menuDrawer = document.querySelector(".menu-drawer");
-let navList = document.querySelector(".nav-list-2");
-// console.log(navList);
+let navList = document.querySelector("#mobile-drawer .nav-list");
 
 menuDrawer.addEventListener("click", () => {
-    console.log(navList.classList);
-    navList.classList.add("show-nav-list");
+    if (navList.style.display == "") {
+        navList.style.display = "flex";
+    } else if (navList.style.display == "none") {
+        navList.style.display = "flex";
+    } else {
+        navList.style.display = "none"
+    }
 })

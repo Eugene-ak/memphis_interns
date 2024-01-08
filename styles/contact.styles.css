@@ -68,7 +68,7 @@ input[type="submit"]:active {
   color: var(--secondary-color);
 }
 
-.imgage {
+i.imgage {
   width: 40px;
   height: 40px;
 }
