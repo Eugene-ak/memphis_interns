@@ -9,7 +9,8 @@
 }
 
 body,
-html {
+html,
+main {
   margin: 0;
   font-family: var(--primary-font);
   display: flex;

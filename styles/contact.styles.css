@@ -7,10 +7,6 @@
   background-color: #ebebeb;
 }
 
-.contact-body main {
-  width: 100%;
-}
-
 .contact-form {
   width: 100%;
   display: flex;
@@ -68,7 +64,7 @@ input[type="submit"]:active {
   color: var(--secondary-color);
 }
 
-i.imgage {
+.image {
   width: 40px;
   height: 40px;
 }
