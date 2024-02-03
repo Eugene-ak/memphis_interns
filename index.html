@@ -1,44 +1,48 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./templates/global.css">
     <link rel="stylesheet" href="./styles/indexstyles.css">
+    <link rel="stylesheet" href="./styles/servicesstyles.css">
+    <link rel="stylesheet" href="./styles/about.styles.css">
+    <link rel="stylesheet" href="./styles/contact.styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
     <script src="./scripts/index.js" defer></script>
     <script src="./scripts/navbar_script.js" defer></script>
-    
 </head>
 
-<body class="home-layout">
-    <header id="page-header"></header>
-
-    <main class="main-body"> 
-        <section class="hero-section" id="hero">
-            
-            <div class="left-section">
-                <img src="./assets/house.png" alt="picture">
-            <div class="search-bar">
-              <button class="type">All type</button>
-              <button class="preference">Neighbourhood</button>
-              <button class="search-button">search</button>
-            </div> </div>
-            <div class="right-section">
-                <h1>The Hassle-free way of <br>renting a room <br>
-                     around the globe</h1>
+<body>
+    <header id="page-header">
+        <nav id="navbar">
+            <img src="./assets/edanwura-logo-white.png" alt="logo" class="logo" />
+            <div class="nav-list">
+                <li><a id="home-link" href="./pages/home.html">Home</a></li>
+                <li><a id="about-link" href="./pages/about.html">About Us</a></li>
+                <li><a id="services-link" href="./pages/services.html">Services</a></li>
+                <li><a id="contact-link" href="./pages/contact.html">Contact Us</a></li>
             </div>
-        
-    
+        </nav>
+        <nav id="mobile-drawer">
+            <img src="../assets/edanwura-logo-white.png" alt="logo" class="logo" />
+            <button class="menu-drawer" id="mobile-menu-button" type="button"><i class="fa fa-bars"></i></button>
+            <div class="nav-list" id="nav-list-drawer">
+                <ul>
+                    <li><a id="home-link" href="./pages/home.html">Home</a></li>
+                    <li><a id="about-link" href="./pages/about.html">About Us</a></li>
+                    <li><a id="services-link" href="./pages/services.html">Services</a></li>
+                    <li><a id="contact-link" href="./pages/contact.html">Contact Us</a></li>
+                </ul>
+                <span>&copy; edanwura-2023</span>
+            </div>
+        </nav>
+    </header>
+    <main class="page-content">
 
-    </section> 
-</main>  
-
-
-   
- 
+    </main>
 </body>
-</html>
 
+</html>

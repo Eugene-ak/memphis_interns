@@ -9,13 +9,13 @@
 }
 
 body,
-html {
+html,
+main {
   margin: 0;
   font-family: var(--primary-font);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   width: 100vw;
 }
 
@@ -60,7 +60,7 @@ header {
 }
 
 #mobile-drawer .nav-list {
-  display: none;
+  display: block;
 }
 
 .nav-list li a {
@@ -121,13 +121,9 @@ header {
     color: white;
     font-size: 18px;
   }
-  
+
   #mobile-drawer .nav-list {
     display: none;
-  }
-
-  .show-nav-list {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -135,11 +131,12 @@ header {
     position: absolute;
     right: 0;
     top: 70px;
-    width: 30%;
+    width: 40%;
     height: 100%;
     border-top: 3px solid var(--primary-color);
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    z-index: 1;
   }
 
   #mobile-drawer .nav-list ul {
