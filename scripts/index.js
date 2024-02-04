@@ -6,7 +6,6 @@ let page = fetch("./pages/home.html")
   .then(data => pageContent.innerHTML = data);
 
 let homeLink = document.querySelector("#navbar .nav-list #home-link");
-console.log(homeLink)
 let aboutLink = document.querySelector("#about-link");
 let servicesLink = document.querySelector("#services-link");
 let contactLink = document.querySelector("#contact-link");
