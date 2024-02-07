@@ -6,6 +6,11 @@
   --tertiary-color: black;
   --heading-font: "Itim", cursive;
   --primary-font: "Roboto", sans-serif;
+  --primary-background: #ebebeb;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body,

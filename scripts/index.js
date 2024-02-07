@@ -63,7 +63,7 @@ servicesLink.addEventListener("click", (event) => {
   }
 
   servicesLink.classList.add("active-link");
-  // body.classList.add("main-body");
+  body.classList.add("services-body");
   body.classList.remove("contact-body");
   body.classList.remove("about-body");
 });

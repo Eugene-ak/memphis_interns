@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ebebeb;
+  background-color: var(--primary-background);
 }
 
 .contact-form {
@@ -30,14 +30,14 @@
 input {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
-  height: 35px;
+  height: 45px;
   padding: 5px 10px;
 }
 
 textarea {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
-  height: 50px;
+  height: 70px;
   padding: 5px 10px;
   font-family: var(--primary-font);
 }
