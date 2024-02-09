@@ -11,6 +11,7 @@ let servicesLink = document.querySelector("#services-link");
 let contactLink = document.querySelector("#contact-link");
 
 homeLink.classList.add("active-link");
+body.classList.add("home-body");
 
 homeLink.addEventListener("click", (event) => {
   event.preventDefault();
@@ -26,8 +27,10 @@ homeLink.addEventListener("click", (event) => {
   }
 
   homeLink.classList.add("active-link");
+  body.classList.add("home-body");
   body.classList.remove("about-body");
   body.classList.remove("contact-body");
+  body.classList.remove("services-body");
 });
 
 aboutLink.addEventListener("click", (event) => {
@@ -46,7 +49,8 @@ aboutLink.addEventListener("click", (event) => {
   aboutLink.classList.add("active-link");
   body.classList.add("about-body");
   body.classList.remove("contact-body");
-  body.classList.remove("main-body");
+  body.classList.remove("services-body");
+  body.classList.remove("home-body");
 });
 
 servicesLink.addEventListener("click", (event) => {
@@ -65,6 +69,7 @@ servicesLink.addEventListener("click", (event) => {
   servicesLink.classList.add("active-link");
   body.classList.add("services-body");
   body.classList.remove("contact-body");
+  body.classList.remove("home-body");
   body.classList.remove("about-body");
 });
 
@@ -84,5 +89,6 @@ contactLink.addEventListener("click", (event) => {
   contactLink.classList.add("active-link");
   body.classList.add("contact-body");
   body.classList.remove("about-body");
-  body.classList.remove("main-body");
+  body.classList.remove("services-body");
+  body.classList.remove("home-body");
 });
