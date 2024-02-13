@@ -1,0 +1,160 @@
+.hero-section {
+  background-image: url(/assets/asv.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50vw;
+  height: 80%;
+}
+
+.left-section img {
+  width: 100%;
+  height: 72%;
+  border-radius: 10px;
+  background-image: url(/assets/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  height: 8%;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  padding: 1px 1px;
+}
+
+
+
+.type {
+  width: 25%;
+
+}
+
+.preference {
+  width: 55%;
+}
+
+.search-button {
+  width: 19%;
+}
+
+.right-section {
+  opacity: 100%;
+  font-weight: 700px;
+  font-size: 30px;
+  color: rgb(252, 252, 252);
+}
+
+
+
+@media screen and (max-width: 599px) {
+  .hero-section {
+    background-image: url(/assets/asv.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .right-section {
+    opacity: 100%;
+    font-weight: 400px;
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+    backdrop-filter: blur(4.5rem);
+    padding: 1rem;
+    color: #ffffff;
+
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+    width: 90%;
+    height: 80%;
+    padding: 2rem;
+  }
+
+  .left-section img {
+    width: 100%;
+    height: 72%;
+    border-radius: 100px;
+    background-image: url(/assets/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+
+  }
+}
+
+  @media screen and (min-width:600px) and (max-width:770px) {
+    hero-section {
+      background-image: url(/assets/asv.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 3rem;
+      height: 100vh;
+      width: 100vw;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .left-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 50%;
+      height: 50%;
+
+    }
+
+    .right-section {
+      opacity: 100%;
+      font-weight: 500px;
+      font-size: 20px;
+      color: rgb(252, 252, 252);
+      padding: 2rem;
+    }
+
+    .left-section img {
+      width: 100%;
+      height: 70%;
+      border-radius: 100px;
+      background-image: url(/assets/map.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 10px;
+
+    }
+  }
+
+  /*background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-954633/original/63ea9744-7ac9-450c-a7dc-734d75d40bc4.jpeg?im_w=960);
